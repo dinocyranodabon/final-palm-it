@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<title>Notifications</title>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" 
+            href="notificationstyles/main-banner/main-banner.css"/>
+        <link rel="stylesheet" type="text/css"
+            href="notificationstyles/left-banner/left-banner.css"/>
+        <link rel="stylesheet" type="text/css"
+            href="notificationstyles/right-banner/right-banner.css"/>
+        <link rel="stylesheet" type="text/css"
+            href="notificationstyles/content-holder/content-holder.css"/>
+        <link rel="stylesheet" type="text/css"
+            href="notificationstyles/left-banner/navigation-tab.css"/>
+    </head>
+    <body>
+        <div class="main-banner">
+            <a href="index.html">
+            <img class="home-button"
+                src="notificationstyles/main-banner/main-banner-images/home.png"/></a>
+            <a href="notification.html">
+            <img class="notification-button" 
+                src="notificationstyles/main-banner/main-banner-images/notification.png"/></a>
+            <a href="message.html">
+            <img class="message-button"
+                src="notificationstyles/main-banner/main-banner-images/message.png"/></a>
+            <a href="addfriend.html">
+            <img class="add-friend-button"
+                src="notificationstyles/main-banner/main-banner-images/addfriend.png"/></a>
+            <span class="search-btn-animation" style="background-color: #b1dde3;">
+                <img class="search-button"
+                src="notificationstyles/main-banner/main-banner-images/search.png"/>
+                <input type="text" name="" class="search-txt" 
+                    placeholder=" Type to search..."/>
+            </span> 
+        </div>
+        <div class="right-banner">
+            <img class="main-logo" 
+                src="notificationstyles/right-banner/right-banner-images/logo.png"/>
+        </div>
+        <div class="left-banner">
+            <a style="cursor:pointer" class="closebtn" 
+                onclick="closeNav()">&times;
+            </a>
+            <span style="cursor:pointer"
+                onclick="openNav()">
+                    <img id="menu-button" 
+                    src="notificationstyles/left-banner/left-banner-images/menu.png"/>
+            </span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" 
+                    onclick="closeNav()">X</a>
+                </div>
+        <div class="content-holder">
+
+        </div>
+    </body>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</html>

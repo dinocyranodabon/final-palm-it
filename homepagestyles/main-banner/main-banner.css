@@ -1,0 +1,65 @@
+.main-banner{
+    display: block;
+    border: 2px solid #B1DDE3;
+    height: 10vh;
+    width: 100%;
+    background-color: #B1DDE3;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.home-button{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 27vh;
+    margin-top: 1vh;
+    background-color: #719BDB;
+    border-radius: 100%;
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+.notification-button{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 13vh;
+    margin-top: 1vh;
+}
+.message-button{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 18vh;
+    margin-top: 1vh;
+}
+.add-friend-button{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 18vh;
+    margin-top: 1vh;
+}
+.search-button{
+    height: 8vh;
+    width: 4vw;
+    cursor: pointer;
+}
+.search-btn-animation {
+    position: fixed;
+    margin-top: 2.2%;
+    margin-left: 14%;
+    transform: translate(-100%, -41%);
+    background: white;
+}
+.search-btn-animation:hover > .search-txt {
+    width: 15vw;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    background-color: white;
+    font-size: 3vh;
+    transition: 0.4s ease;
+    line-height: 8vh;
+    width: 0px;
+}

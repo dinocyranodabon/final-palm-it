@@ -1,0 +1,10 @@
+.left-banner{
+    display: block; 
+    border: 2px solid #B1DDE3;
+    height: 100%;
+    width: 10vw;
+    position: fixed;
+    background: #B1DDE3;
+    top: 0%;
+    left: 0%;
+} 
